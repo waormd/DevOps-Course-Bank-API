@@ -2,7 +2,6 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Set
 
-
 @dataclass(frozen=True)
 class Account:
     name: str
@@ -10,6 +9,7 @@ class Account:
 
 @dataclass(frozen=True)
 class Transaction:
+    transactionId: int
     account: Account
     date: datetime
     amount: int
@@ -47,4 +47,5 @@ class Bank:
         """Add funds to the named account"""
         account = self.get_account(name)
         now = datetime.now()
-        self._transactions.add(Transaction(account, now, amount))
+        transactionId = len(self._transactions) + 1
+        self._transactions.add(Transaction(transactionId, account, now, amount))
