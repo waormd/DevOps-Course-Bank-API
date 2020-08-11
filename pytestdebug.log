@@ -1,0 +1,2251 @@
+versions pytest-5.4.3, py-1.8.1, python-3.8.3.final.0
+cwd=C:\code\devops\module-3-python\DevOps-Course-Bank-API
+args=('--debug',)
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x00000226121DF220>
+    pytest_plugin_registered [hook]
+        plugin: <Session DevOps-Course-Bank-API exitstatus=None testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x00000226121DF220>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000002261273C6A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000002261273C130>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x00000226121DF220>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000002261273C730>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000002261273C070>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+    early skip of rewriting module: signal [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x00000226121DF220>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=8 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002261276B130>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002261276B220>> in_=<FDCapture 0 oldfd=6 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='cp1252'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000002261273C6A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000002261273C130>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000002261273C730>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000002261273C070>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000002261272C070>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x00000226127967C0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x00000226121DF220>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=8 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002261276B130>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x000002261276B220>> in_=<FDCapture 0 oldfd=6 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='cp1252'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000002261273C6A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000002261273C130>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000002261273C730>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000002261273C070>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000002261272C070>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x00000226127967C0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x0000022612796B20>
+          manager: <_pytest.config.PytestPluginManager object at 0x000002261219C970>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x00000226121DF220>
+          startdir: C:\code\devops\module-3-python\DevOps-Course-Bank-API
+      finish pytest_report_header --> [['rootdir: C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API'], ['using: pytest-5.4.3 pylib-1.8.1']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\.git
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+          early skip of rewriting module: py._code [assertion]
+          early skip of rewriting module: py._code.code [assertion]
+          early skip of rewriting module: repr [assertion]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\.pytest_cache
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\.vscode
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_directory [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_directory [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_directory [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\.gitignore
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\.gitignore
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\README.md
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\README.md
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\poetry.lock
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\poetry.lock
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\pyproject.toml
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\pyproject.toml
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\pytestdebug.log
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\pytestdebug.log
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\__init__.py
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\__init__.py
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\__init__.py
+                  parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api> [hook]
+            finish pytest_collect_file --> [<Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api>] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\PKG-INFO
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\PKG-INFO
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\SOURCES.txt
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\SOURCES.txt
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\dependency_links.txt
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\dependency_links.txt
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\requires.txt
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\requires.txt
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\top_level.txt
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api.egg-info\top_level.txt
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\__init__.py
+                config: <_pytest.config.Config object at 0x00000226121DF220>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\__init__.py
+                parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\__init__.py
+                  parent: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests> [hook]
+            finish pytest_collect_file --> [<Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=2 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=2 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api> [collection]
+      pytest_collectstart [hook]
+          collector: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api>
+        pytest_ignore_collect [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\app.py
+            config: <_pytest.config.Config object at 0x00000226121DF220>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\app.py
+            parent: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\bank.py
+            config: <_pytest.config.Config object at 0x00000226121DF220>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api\bank.py
+            parent: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\bank_api>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'bank_api/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'bank_api/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>
+        pytest_ignore_collect [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_app.py
+            config: <_pytest.config.Config object at 0x00000226121DF220>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_app.py
+            parent: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>
+          pytest_pycollect_makemodule [hook]
+              path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_app.py
+              parent: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>
+          finish pytest_pycollect_makemodule --> <Module test_app.py> [hook]
+        finish pytest_collect_file --> [<Module test_app.py>] [hook]
+        pytest_ignore_collect [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_bank.py
+            config: <_pytest.config.Config object at 0x00000226121DF220>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_bank.py
+            parent: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>
+          pytest_pycollect_makemodule [hook]
+              path: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_bank.py
+              parent: <Package C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests>
+          finish pytest_pycollect_makemodule --> <Module test_bank.py> [hook]
+        finish pytest_collect_file --> [<Module test_bank.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/__init__.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Module test_app.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_app.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_app.py>
+      early skip of rewriting module: tests [assertion]
+      find_module called for: tests.test_app [assertion]
+      matched test file 'C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API\\tests\\test_app.py' [assertion]
+      found cached rewritten pyc for C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_app.py [assertion]
+      early skip of rewriting module: dataclasses [assertion]
+      early skip of rewriting module: bank_api [assertion]
+      early skip of rewriting module: bank_api.app [assertion]
+      early skip of rewriting module: flask [assertion]
+      early skip of rewriting module: jinja2 [assertion]
+      early skip of rewriting module: markupsafe [assertion]
+      early skip of rewriting module: markupsafe._compat [assertion]
+      early skip of rewriting module: markupsafe._speedups [assertion]
+      early skip of rewriting module: jinja2.bccache [assertion]
+      early skip of rewriting module: hashlib [assertion]
+      early skip of rewriting module: _hashlib [assertion]
+      early skip of rewriting module: _blake2 [assertion]
+      early skip of rewriting module: _sha3 [assertion]
+      early skip of rewriting module: jinja2._compat [assertion]
+      early skip of rewriting module: pickle [assertion]
+      early skip of rewriting module: _compat_pickle [assertion]
+      early skip of rewriting module: _pickle [assertion]
+      early skip of rewriting module: org [assertion]
+      early skip of rewriting module: jinja2.utils [assertion]
+      early skip of rewriting module: jinja2.environment [assertion]
+      early skip of rewriting module: jinja2.nodes [assertion]
+      early skip of rewriting module: jinja2.compiler [assertion]
+      early skip of rewriting module: jinja2.exceptions [assertion]
+      early skip of rewriting module: jinja2.idtracking [assertion]
+      early skip of rewriting module: jinja2.visitor [assertion]
+      early skip of rewriting module: jinja2.optimizer [assertion]
+      early skip of rewriting module: jinja2.defaults [assertion]
+      early skip of rewriting module: jinja2.filters [assertion]
+      early skip of rewriting module: jinja2.runtime [assertion]
+      early skip of rewriting module: jinja2.tests [assertion]
+      early skip of rewriting module: jinja2.lexer [assertion]
+      early skip of rewriting module: jinja2._identifier [assertion]
+      early skip of rewriting module: jinja2.parser [assertion]
+      early skip of rewriting module: jinja2.loaders [assertion]
+      early skip of rewriting module: werkzeug [assertion]
+      early skip of rewriting module: werkzeug.serving [assertion]
+      early skip of rewriting module: werkzeug._compat [assertion]
+      early skip of rewriting module: werkzeug._internal [assertion]
+      early skip of rewriting module: werkzeug.exceptions [assertion]
+      early skip of rewriting module: werkzeug.utils [assertion]
+      early skip of rewriting module: html [assertion]
+      early skip of rewriting module: html.entities [assertion]
+      early skip of rewriting module: werkzeug.urls [assertion]
+      early skip of rewriting module: socketserver [assertion]
+      early skip of rewriting module: http [assertion]
+      early skip of rewriting module: http.server [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: calendar [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: base64 [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: http.client [assertion]
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: uu [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      early skip of rewriting module: ssl [assertion]
+      early skip of rewriting module: _ssl [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: click [assertion]
+      early skip of rewriting module: click.core [assertion]
+      early skip of rewriting module: click._compat [assertion]
+      early skip of rewriting module: click._winconsole [assertion]
+      early skip of rewriting module: msvcrt [assertion]
+      early skip of rewriting module: click._unicodefun [assertion]
+      early skip of rewriting module: click.exceptions [assertion]
+      early skip of rewriting module: click.utils [assertion]
+      early skip of rewriting module: click.globals [assertion]
+      early skip of rewriting module: click.formatting [assertion]
+      early skip of rewriting module: click.parser [assertion]
+      early skip of rewriting module: click.termui [assertion]
+      early skip of rewriting module: click.types [assertion]
+      early skip of rewriting module: click.decorators [assertion]
+      early skip of rewriting module: werkzeug.test [assertion]
+      early skip of rewriting module: werkzeug.datastructures [assertion]
+      early skip of rewriting module: werkzeug.filesystem [assertion]
+      early skip of rewriting module: werkzeug.http [assertion]
+      early skip of rewriting module: urllib.request [assertion]
+      early skip of rewriting module: urllib.error [assertion]
+      early skip of rewriting module: urllib.response [assertion]
+      early skip of rewriting module: nturl2path [assertion]
+      early skip of rewriting module: werkzeug.wrappers [assertion]
+      early skip of rewriting module: werkzeug.wrappers.accept [assertion]
+      early skip of rewriting module: werkzeug.wrappers.auth [assertion]
+      early skip of rewriting module: werkzeug.wrappers.base_request [assertion]
+      early skip of rewriting module: werkzeug.formparser [assertion]
+      early skip of rewriting module: werkzeug.wsgi [assertion]
+      early skip of rewriting module: werkzeug.wrappers.base_response [assertion]
+      early skip of rewriting module: werkzeug.wrappers.common_descriptors [assertion]
+      early skip of rewriting module: werkzeug.wrappers.etag [assertion]
+      early skip of rewriting module: werkzeug.wrappers.request [assertion]
+      early skip of rewriting module: werkzeug.wrappers.cors [assertion]
+      early skip of rewriting module: werkzeug.wrappers.user_agent [assertion]
+      early skip of rewriting module: werkzeug.useragents [assertion]
+      early skip of rewriting module: werkzeug.wrappers.response [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: flask.json [assertion]
+      early skip of rewriting module: itsdangerous [assertion]
+      early skip of rewriting module: itsdangerous._json [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: itsdangerous.encoding [assertion]
+      early skip of rewriting module: itsdangerous._compat [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: itsdangerous.exc [assertion]
+      early skip of rewriting module: itsdangerous.jws [assertion]
+      early skip of rewriting module: itsdangerous.serializer [assertion]
+      early skip of rewriting module: itsdangerous.signer [assertion]
+      early skip of rewriting module: itsdangerous.timed [assertion]
+      early skip of rewriting module: itsdangerous.url_safe [assertion]
+      early skip of rewriting module: flask._compat [assertion]
+      early skip of rewriting module: flask.globals [assertion]
+      early skip of rewriting module: werkzeug.local [assertion]
+      early skip of rewriting module: greenlet [assertion]
+      early skip of rewriting module: thread [assertion]
+      early skip of rewriting module: flask.app [assertion]
+      early skip of rewriting module: werkzeug.routing [assertion]
+      early skip of rewriting module: difflib [assertion]
+      early skip of rewriting module: flask.cli [assertion]
+      early skip of rewriting module: flask.helpers [assertion]
+      early skip of rewriting module: flask.signals [assertion]
+      early skip of rewriting module: blinker [assertion]
+      early skip of rewriting module: dotenv [assertion]
+      early skip of rewriting module: flask.config [assertion]
+      early skip of rewriting module: flask.ctx [assertion]
+      early skip of rewriting module: flask.logging [assertion]
+      early skip of rewriting module: flask.sessions [assertion]
+      early skip of rewriting module: flask.json.tag [assertion]
+      early skip of rewriting module: flask.templating [assertion]
+      early skip of rewriting module: flask.wrappers [assertion]
+      early skip of rewriting module: werkzeug.wrappers.json [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: flask.blueprints [assertion]
+      early skip of rewriting module: flask_restx [assertion]
+      early skip of rewriting module: flask_restx.fields [assertion]
+      early skip of rewriting module: six [assertion]
+      early skip of rewriting module: six.moves [assertion]
+      early skip of rewriting module: six.moves.urllib [assertion]
+      early skip of rewriting module: six.moves.urllib.parse [assertion]
+      early skip of rewriting module: flask_restx.inputs [assertion]
+      early skip of rewriting module: aniso8601 [assertion]
+      early skip of rewriting module: aniso8601.time [assertion]
+      early skip of rewriting module: aniso8601.builders [assertion]
+      early skip of rewriting module: aniso8601.exceptions [assertion]
+      early skip of rewriting module: aniso8601.builders.python [assertion]
+      early skip of rewriting module: aniso8601.utcoffset [assertion]
+      early skip of rewriting module: aniso8601.date [assertion]
+      early skip of rewriting module: aniso8601.resolution [assertion]
+      early skip of rewriting module: aniso8601.compat [assertion]
+      early skip of rewriting module: aniso8601.decimalfraction [assertion]
+      early skip of rewriting module: aniso8601.timezone [assertion]
+      early skip of rewriting module: aniso8601.duration [assertion]
+      early skip of rewriting module: aniso8601.interval [assertion]
+      early skip of rewriting module: pytz [assertion]
+      early skip of rewriting module: pytz.exceptions [assertion]
+      early skip of rewriting module: pytz.lazy [assertion]
+      early skip of rewriting module: pytz.tzinfo [assertion]
+      early skip of rewriting module: pytz.tzfile [assertion]
+      early skip of rewriting module: flask_restx.errors [assertion]
+      early skip of rewriting module: flask_restx._http [assertion]
+      early skip of rewriting module: flask_restx.marshalling [assertion]
+      early skip of rewriting module: flask_restx.mask [assertion]
+      early skip of rewriting module: flask_restx.utils [assertion]
+      early skip of rewriting module: flask_restx.reqparse [assertion]
+      early skip of rewriting module: flask_restx.model [assertion]
+      early skip of rewriting module: jsonschema [assertion]
+      early skip of rewriting module: jsonschema.exceptions [assertion]
+      early skip of rewriting module: jsonschema._utils [assertion]
+      early skip of rewriting module: jsonschema.compat [assertion]
+      early skip of rewriting module: jsonschema._format [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: rfc3987 [assertion]
+      early skip of rewriting module: rfc3986_validator [assertion]
+      early skip of rewriting module: strict_rfc3339 [assertion]
+      early skip of rewriting module: rfc3339_validator [assertion]
+      early skip of rewriting module: webcolors [assertion]
+      early skip of rewriting module: jsonpointer [assertion]
+      early skip of rewriting module: uritemplate [assertion]
+      early skip of rewriting module: jsonschema._types [assertion]
+      early skip of rewriting module: pyrsistent [assertion]
+      early skip of rewriting module: pyrsistent._pmap [assertion]
+      early skip of rewriting module: pyrsistent._compat [assertion]
+      early skip of rewriting module: pyrsistent._pvector [assertion]
+      early skip of rewriting module: pyrsistent._transformations [assertion]
+      early skip of rewriting module: pvectorc [assertion]
+      early skip of rewriting module: pyrsistent._pset [assertion]
+      early skip of rewriting module: pyrsistent._pbag [assertion]
+      early skip of rewriting module: pyrsistent._plist [assertion]
+      early skip of rewriting module: pyrsistent._pdeque [assertion]
+      early skip of rewriting module: pyrsistent._checked_types [assertion]
+      early skip of rewriting module: pyrsistent._field_common [assertion]
+      early skip of rewriting module: pyrsistent._precord [assertion]
+      early skip of rewriting module: pyrsistent._pclass [assertion]
+      early skip of rewriting module: pyrsistent._immutable [assertion]
+      early skip of rewriting module: pyrsistent._helpers [assertion]
+      early skip of rewriting module: pyrsistent._toolz [assertion]
+      early skip of rewriting module: jsonschema.validators [assertion]
+      early skip of rewriting module: jsonschema._legacy_validators [assertion]
+      early skip of rewriting module: jsonschema._validators [assertion]
+      early skip of rewriting module: flask_restx.apidoc [assertion]
+      early skip of rewriting module: flask_restx.cors [assertion]
+      early skip of rewriting module: flask_restx.api [assertion]
+      early skip of rewriting module: flask_restx.namespace [assertion]
+      early skip of rewriting module: flask.views [assertion]
+      early skip of rewriting module: flask_restx.postman [assertion]
+      early skip of rewriting module: flask_restx.resource [assertion]
+      early skip of rewriting module: flask_restx.swagger [assertion]
+      early skip of rewriting module: flask_restx.representations [assertion]
+      early skip of rewriting module: ujson [assertion]
+      early skip of rewriting module: flask_restx.__about__ [assertion]
+      early skip of rewriting module: bank_api.bank [assertion]
+      early skip of rewriting module: jinja2.ext [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __name__
+            obj: tests.test_app
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __doc__
+            obj: Integration tests for app.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __package__
+            obj: tests
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __loader__
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x000002261273CDF0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __spec__
+            obj: ModuleSpec(name='tests.test_app', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x000002261273CDF0>, origin='C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API\\tests\\test_app.py')
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __file__
+            obj: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_app.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __cached__
+            obj: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\__pycache__\test_app.cpython-38.pyc
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __builtins__
+            obj: {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2020 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: pytest
+            obj: <module 'pytest' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: asdict
+            obj: <function asdict at 0x00000226127ED790>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: app
+            obj: <Flask 'bank_api.app'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: Account
+            obj: <class 'bank_api.bank.Account'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: client
+            obj: <function client at 0x0000022613087790>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: test_account_creation
+            obj: <function test_account_creation at 0x000002261309AEE0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000022613085790>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_account_creation>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: test_get_account_that_doesnt_exist_gives_404
+            obj: <function test_get_account_that_doesnt_exist_gives_404 at 0x000002261309AF70>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000022613085790>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_get_account_that_doesnt_exist_gives_404>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: test_adds_funds_to_existing_account
+            obj: <function test_adds_funds_to_existing_account at 0x00000226130A5040>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000022613085790>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_adds_funds_to_existing_account>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __repr__
+            obj: <slot wrapper '__repr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __getattribute__
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __setattr__
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __delattr__
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __init__
+            obj: <slot wrapper '__init__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __new__
+            obj: <built-in method __new__ of type object at 0x00007FF95A019530>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __dir__
+            obj: <method '__dir__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __dict__
+            obj: <member '__dict__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __hash__
+            obj: <slot wrapper '__hash__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __str__
+            obj: <slot wrapper '__str__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __lt__
+            obj: <slot wrapper '__lt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __le__
+            obj: <slot wrapper '__le__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __eq__
+            obj: <slot wrapper '__eq__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __ne__
+            obj: <slot wrapper '__ne__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __gt__
+            obj: <slot wrapper '__gt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __ge__
+            obj: <slot wrapper '__ge__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __reduce_ex__
+            obj: <method '__reduce_ex__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __reduce__
+            obj: <method '__reduce__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __subclasshook__
+            obj: <method '__subclasshook__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __init_subclass__
+            obj: <method '__init_subclass__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __format__
+            obj: <method '__format__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __sizeof__
+            obj: <method '__sizeof__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: __class__
+            obj: <attribute '__class__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_app.py' lenresult=3 outcome='passed'> [hook]
+    genitems <Function test_account_creation> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_account_creation>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_get_account_that_doesnt_exist_gives_404> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_get_account_that_doesnt_exist_gives_404>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_adds_funds_to_existing_account> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_adds_funds_to_existing_account>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_app.py' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_bank.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_bank.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_bank.py>
+      find_module called for: tests.test_bank [assertion]
+      matched test file 'C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API\\tests\\test_bank.py' [assertion]
+      found cached rewritten pyc for C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_bank.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __name__
+            obj: tests.test_bank
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __doc__
+            obj: Unit tests for bank.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __package__
+            obj: tests
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __loader__
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x000002261273CDF0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __spec__
+            obj: ModuleSpec(name='tests.test_bank', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x000002261273CDF0>, origin='C:\\code\\devops\\module-3-python\\DevOps-Course-Bank-API\\tests\\test_bank.py')
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __file__
+            obj: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\test_bank.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __cached__
+            obj: C:\code\devops\module-3-python\DevOps-Course-Bank-API\tests\__pycache__\test_bank.cpython-38.pyc
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __builtins__
+            obj: {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2020 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: pytest
+            obj: <module 'pytest' from 'c:\\users\\wcj\\appdata\\local\\pypoetry\\cache\\virtualenvs\\bank-api-2cs5wqnu-py3.8\\lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: Bank
+            obj: <class 'bank_api.bank.Bank'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: Account
+            obj: <class 'bank_api.bank.Account'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: bank
+            obj: <function bank at 0x00000226130A5A60>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_accounts_are_immutable
+            obj: <function test_accounts_are_immutable at 0x00000226130A5AF0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_accounts_are_immutable>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_bank_creates_empty
+            obj: <function test_bank_creates_empty at 0x00000226130A5B80>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_bank_creates_empty>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_can_create_and_get_account
+            obj: <function test_can_create_and_get_account at 0x00000226130A5C10>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_can_create_and_get_account>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_cannot_duplicate_accounts
+            obj: <function test_cannot_duplicate_accounts at 0x00000226130A5CA0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_cannot_duplicate_accounts>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_cannot_modify_accounts_set
+            obj: <function test_cannot_modify_accounts_set at 0x00000226130A5D30>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_cannot_modify_accounts_set>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_add_funds_to_account
+            obj: <function test_add_funds_to_account at 0x00000226130A5DC0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_add_funds_to_account>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_transactions_count_to_account
+            obj: <function test_transactions_count_to_account at 0x00000226130A5E50>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_transactions_count_to_account>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_same_amount_of_transaction_adds_separately
+            obj: <function test_same_amount_of_transaction_adds_separately at 0x00000226130A5EE0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_same_amount_of_transaction_adds_separately>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: test_can_add_negative_amount
+            obj: <function test_can_add_negative_amount at 0x00000226130A5F70>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x00000226130A2340>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_can_add_negative_amount>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __repr__
+            obj: <slot wrapper '__repr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __getattribute__
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __setattr__
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __delattr__
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __init__
+            obj: <slot wrapper '__init__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __new__
+            obj: <built-in method __new__ of type object at 0x00007FF95A019530>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __dir__
+            obj: <method '__dir__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __dict__
+            obj: <member '__dict__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __hash__
+            obj: <slot wrapper '__hash__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __str__
+            obj: <slot wrapper '__str__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __lt__
+            obj: <slot wrapper '__lt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __le__
+            obj: <slot wrapper '__le__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __eq__
+            obj: <slot wrapper '__eq__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __ne__
+            obj: <slot wrapper '__ne__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __gt__
+            obj: <slot wrapper '__gt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __ge__
+            obj: <slot wrapper '__ge__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __reduce_ex__
+            obj: <method '__reduce_ex__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __reduce__
+            obj: <method '__reduce__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __subclasshook__
+            obj: <method '__subclasshook__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __init_subclass__
+            obj: <method '__init_subclass__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __format__
+            obj: <method '__format__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __sizeof__
+            obj: <method '__sizeof__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_bank.py>
+            name: __class__
+            obj: <attribute '__class__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_bank.py' lenresult=9 outcome='passed'> [hook]
+    genitems <Function test_accounts_are_immutable> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_accounts_are_immutable>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_bank_creates_empty> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_bank_creates_empty>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_can_create_and_get_account> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_can_create_and_get_account>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_cannot_duplicate_accounts> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_cannot_duplicate_accounts>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_cannot_modify_accounts_set> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_cannot_modify_accounts_set>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_add_funds_to_account> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_add_funds_to_account>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_transactions_count_to_account> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_transactions_count_to_account>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_same_amount_of_transaction_adds_separately> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_same_amount_of_transaction_adds_separately>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_can_add_negative_amount> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_can_add_negative_amount>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_bank.py' lenresult=9 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/__init__.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x00000226121DF220>
+          items: [<Function test_account_creation>, <Function test_get_account_that_doesnt_exist_gives_404>, <Function test_adds_funds_to_existing_account>, <Function test_accounts_are_immutable>, <Function test_bank_creates_empty>, <Function test_can_create_and_get_account>, <Function test_cannot_duplicate_accounts>, <Function test_cannot_modify_accounts_set>, <Function test_add_funds_to_account>, <Function test_transactions_count_to_account>, <Function test_same_amount_of_transaction_adds_separately>, <Function test_can_add_negative_amount>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x00000226121DF220>
+            startdir: C:\code\devops\module-3-python\DevOps-Course-Bank-API
+            items: [<Function test_account_creation>, <Function test_get_account_that_doesnt_exist_gives_404>, <Function test_adds_funds_to_existing_account>, <Function test_accounts_are_immutable>, <Function test_bank_creates_empty>, <Function test_can_create_and_get_account>, <Function test_cannot_duplicate_accounts>, <Function test_cannot_modify_accounts_set>, <Function test_add_funds_to_account>, <Function test_transactions_count_to_account>, <Function test_same_amount_of_transaction_adds_separately>, <Function test_can_add_negative_amount>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<Function test_account_creation>, <Function test_get_account_that_doesnt_exist_gives_404>, <Function test_adds_funds_to_existing_account>, <Function test_accounts_are_immutable>, <Function test_bank_creates_empty>, <Function test_can_create_and_get_account>, <Function test_cannot_duplicate_accounts>, <Function test_cannot_modify_accounts_set>, <Function test_add_funds_to_account>, <Function test_transactions_count_to_account>, <Function test_same_amount_of_transaction_adds_separately>, <Function test_can_add_negative_amount>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=12>
+      pytest_runtest_protocol [hook]
+          item: <Function test_account_creation>
+          nextitem: <Function test_get_account_that_doesnt_exist_gives_404>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_app.py::test_account_creation
+            location: ('tests\\test_app.py', 14, 'test_account_creation')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_account_creation>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='client' scope='function' baseid='tests/test_app.py'>
+              request: <SubRequest 'client' for <Function test_account_creation>>
+          early skip of rewriting module: flask.testing [assertion]
+          early skip of rewriting module: click.testing [assertion]
+          finish pytest_fixture_setup --> <FlaskClient <Flask 'bank_api.app'>> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_account_creation>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_account_creation' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_account_creation' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_account_creation' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_account_creation>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_account_creation>
+          early skip of rewriting module: encodings.idna [assertion]
+          early skip of rewriting module: stringprep [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_account_creation>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_account_creation' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_account_creation' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_account_creation' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_account_creation>
+            nextitem: <Function test_get_account_that_doesnt_exist_gives_404>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='client' scope='function' baseid='tests/test_app.py'>
+              request: <SubRequest 'client' for <Function test_account_creation>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_account_creation>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_account_creation' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_account_creation' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_account_creation' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_app.py::test_account_creation
+            location: ('tests\\test_app.py', 14, 'test_account_creation')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_get_account_that_doesnt_exist_gives_404>
+          nextitem: <Function test_adds_funds_to_existing_account>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_app.py::test_get_account_that_doesnt_exist_gives_404
+            location: ('tests\\test_app.py', 26, 'test_get_account_that_doesnt_exist_gives_404')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_get_account_that_doesnt_exist_gives_404>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='client' scope='function' baseid='tests/test_app.py'>
+              request: <SubRequest 'client' for <Function test_get_account_that_doesnt_exist_gives_404>>
+          finish pytest_fixture_setup --> <FlaskClient <Flask 'bank_api.app'>> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_account_that_doesnt_exist_gives_404>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_get_account_that_doesnt_exist_gives_404>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_get_account_that_doesnt_exist_gives_404>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_account_that_doesnt_exist_gives_404>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_get_account_that_doesnt_exist_gives_404>
+            nextitem: <Function test_adds_funds_to_existing_account>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='client' scope='function' baseid='tests/test_app.py'>
+              request: <SubRequest 'client' for <Function test_get_account_that_doesnt_exist_gives_404>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_account_that_doesnt_exist_gives_404>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_get_account_that_doesnt_exist_gives_404' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_app.py::test_get_account_that_doesnt_exist_gives_404
+            location: ('tests\\test_app.py', 26, 'test_get_account_that_doesnt_exist_gives_404')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_adds_funds_to_existing_account>
+          nextitem: <Function test_accounts_are_immutable>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_app.py::test_adds_funds_to_existing_account
+            location: ('tests\\test_app.py', 34, 'test_adds_funds_to_existing_account')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_adds_funds_to_existing_account>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='client' scope='function' baseid='tests/test_app.py'>
+              request: <SubRequest 'client' for <Function test_adds_funds_to_existing_account>>
+          finish pytest_fixture_setup --> <FlaskClient <Flask 'bank_api.app'>> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_adds_funds_to_existing_account>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_adds_funds_to_existing_account>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_adds_funds_to_existing_account>
+        pytest_runtest_makereport [hook]
+            item: <Function test_adds_funds_to_existing_account>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo ValueError('Account not found') tblen=52>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_adds_funds_to_existing_account>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo ValueError('Account not found') tblen=26>>
+            report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_adds_funds_to_existing_account>
+            nextitem: <Function test_accounts_are_immutable>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='client' scope='function' baseid='tests/test_app.py'>
+              request: <SubRequest 'client' for <Function test_adds_funds_to_existing_account>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_adds_funds_to_existing_account>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_app.py::test_adds_funds_to_existing_account
+            location: ('tests\\test_app.py', 34, 'test_adds_funds_to_existing_account')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_accounts_are_immutable>
+          nextitem: <Function test_bank_creates_empty>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_accounts_are_immutable
+            location: ('tests\\test_bank.py', 12, 'test_accounts_are_immutable')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_accounts_are_immutable>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_accounts_are_immutable>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_accounts_are_immutable>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_accounts_are_immutable>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_accounts_are_immutable>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_accounts_are_immutable>
+            nextitem: <Function test_bank_creates_empty>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_accounts_are_immutable>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_accounts_are_immutable' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_accounts_are_immutable
+            location: ('tests\\test_bank.py', 12, 'test_accounts_are_immutable')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_bank_creates_empty>
+          nextitem: <Function test_can_create_and_get_account>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_bank_creates_empty
+            location: ('tests\\test_bank.py', 19, 'test_bank_creates_empty')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_bank_creates_empty>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_bank_creates_empty>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133F1550> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_bank_creates_empty>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_bank_creates_empty>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_bank_creates_empty>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_bank_creates_empty>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_bank_creates_empty>
+            nextitem: <Function test_can_create_and_get_account>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_bank_creates_empty>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_bank_creates_empty>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_bank_creates_empty' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_bank_creates_empty
+            location: ('tests\\test_bank.py', 19, 'test_bank_creates_empty')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_can_create_and_get_account>
+          nextitem: <Function test_cannot_duplicate_accounts>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_can_create_and_get_account
+            location: ('tests\\test_bank.py', 24, 'test_can_create_and_get_account')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_can_create_and_get_account>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_can_create_and_get_account>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133F1CD0> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_can_create_and_get_account>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_can_create_and_get_account>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_can_create_and_get_account>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_can_create_and_get_account>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_can_create_and_get_account>
+            nextitem: <Function test_cannot_duplicate_accounts>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_can_create_and_get_account>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_can_create_and_get_account>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_can_create_and_get_account' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_can_create_and_get_account
+            location: ('tests\\test_bank.py', 24, 'test_can_create_and_get_account')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_cannot_duplicate_accounts>
+          nextitem: <Function test_cannot_modify_accounts_set>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_cannot_duplicate_accounts
+            location: ('tests\\test_bank.py', 32, 'test_cannot_duplicate_accounts')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_cannot_duplicate_accounts>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_cannot_duplicate_accounts>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133F1AC0> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cannot_duplicate_accounts>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_cannot_duplicate_accounts>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_cannot_duplicate_accounts>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cannot_duplicate_accounts>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_cannot_duplicate_accounts>
+            nextitem: <Function test_cannot_modify_accounts_set>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_cannot_duplicate_accounts>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cannot_duplicate_accounts>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_cannot_duplicate_accounts' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_cannot_duplicate_accounts
+            location: ('tests\\test_bank.py', 32, 'test_cannot_duplicate_accounts')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_cannot_modify_accounts_set>
+          nextitem: <Function test_add_funds_to_account>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_cannot_modify_accounts_set
+            location: ('tests\\test_bank.py', 39, 'test_cannot_modify_accounts_set')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_cannot_modify_accounts_set>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_cannot_modify_accounts_set>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133F1DC0> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cannot_modify_accounts_set>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_cannot_modify_accounts_set>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_cannot_modify_accounts_set>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cannot_modify_accounts_set>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_cannot_modify_accounts_set>
+            nextitem: <Function test_add_funds_to_account>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_cannot_modify_accounts_set>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cannot_modify_accounts_set>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_cannot_modify_accounts_set' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_cannot_modify_accounts_set
+            location: ('tests\\test_bank.py', 39, 'test_cannot_modify_accounts_set')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_add_funds_to_account>
+          nextitem: <Function test_transactions_count_to_account>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_add_funds_to_account
+            location: ('tests\\test_bank.py', 46, 'test_add_funds_to_account')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_add_funds_to_account>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_add_funds_to_account>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133F1880> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_add_funds_to_account>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_add_funds_to_account>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_add_funds_to_account>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_add_funds_to_account>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_add_funds_to_account>
+            nextitem: <Function test_transactions_count_to_account>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_add_funds_to_account>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_add_funds_to_account>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_add_funds_to_account' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_add_funds_to_account
+            location: ('tests\\test_bank.py', 46, 'test_add_funds_to_account')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_transactions_count_to_account>
+          nextitem: <Function test_same_amount_of_transaction_adds_separately>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_transactions_count_to_account
+            location: ('tests\\test_bank.py', 59, 'test_transactions_count_to_account')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_transactions_count_to_account>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_transactions_count_to_account>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133D6E50> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_transactions_count_to_account>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_transactions_count_to_account>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_transactions_count_to_account>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_transactions_count_to_account>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_transactions_count_to_account>
+            nextitem: <Function test_same_amount_of_transaction_adds_separately>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_transactions_count_to_account>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_transactions_count_to_account>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_transactions_count_to_account' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_transactions_count_to_account
+            location: ('tests\\test_bank.py', 59, 'test_transactions_count_to_account')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_same_amount_of_transaction_adds_separately>
+          nextitem: <Function test_can_add_negative_amount>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_same_amount_of_transaction_adds_separately
+            location: ('tests\\test_bank.py', 77, 'test_same_amount_of_transaction_adds_separately')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_same_amount_of_transaction_adds_separately>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_same_amount_of_transaction_adds_separately>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133D6D00> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_same_amount_of_transaction_adds_separately>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_same_amount_of_transaction_adds_separately>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_same_amount_of_transaction_adds_separately>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_same_amount_of_transaction_adds_separately>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_same_amount_of_transaction_adds_separately>
+            nextitem: <Function test_can_add_negative_amount>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_same_amount_of_transaction_adds_separately>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_same_amount_of_transaction_adds_separately>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_same_amount_of_transaction_adds_separately' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_same_amount_of_transaction_adds_separately
+            location: ('tests\\test_bank.py', 77, 'test_same_amount_of_transaction_adds_separately')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_can_add_negative_amount>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_bank.py::test_can_add_negative_amount
+            location: ('tests\\test_bank.py', 92, 'test_can_add_negative_amount')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_can_add_negative_amount>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_can_add_negative_amount>>
+          finish pytest_fixture_setup --> <bank_api.bank.Bank object at 0x00000226133D6BB0> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_can_add_negative_amount>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_can_add_negative_amount>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_can_add_negative_amount>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_can_add_negative_amount>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_can_add_negative_amount>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='bank' scope='function' baseid='tests/test_bank.py'>
+              request: <SubRequest 'bank' for <Function test_can_add_negative_amount>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_can_add_negative_amount>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_bank.py::test_can_add_negative_amount' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000226121DF220>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_bank.py::test_can_add_negative_amount
+            location: ('tests\\test_bank.py', 92, 'test_can_add_negative_amount')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session DevOps-Course-Bank-API exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=12>
+        exitstatus: ExitCode.TESTS_FAILED
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000002261272C070>
+          exitstatus: ExitCode.TESTS_FAILED
+          config: <_pytest.config.Config object at 0x00000226121DF220>
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: wcwidth [assertion]
+      early skip of rewriting module: wcwidth.wcwidth [assertion]
+      early skip of rewriting module: pkg_resources [assertion]
+      early skip of rewriting module: plistlib [assertion]
+      early skip of rewriting module: xml [assertion]
+      early skip of rewriting module: xml.parsers [assertion]
+      early skip of rewriting module: xml.parsers.expat [assertion]
+      early skip of rewriting module: pyexpat [assertion]
+      early skip of rewriting module: pkg_resources.extern [assertion]
+      early skip of rewriting module: pkg_resources.extern.six [assertion]
+      early skip of rewriting module: pkg_resources._vendor [assertion]
+      early skip of rewriting module: pkg_resources._vendor.six [assertion]
+      early skip of rewriting module: pkg_resources.extern.six.moves [assertion]
+      early skip of rewriting module: pkg_resources._vendor.six [assertion]
+      early skip of rewriting module: pkg_resources._vendor.six.moves [assertion]
+      early skip of rewriting module: pkg_resources._vendor.six.moves [assertion]
+      early skip of rewriting module: pkg_resources._vendor.six.moves.urllib [assertion]
+      early skip of rewriting module: pkg_resources.py31compat [assertion]
+      early skip of rewriting module: pkg_resources.extern.appdirs [assertion]
+      early skip of rewriting module: pkg_resources._vendor.appdirs [assertion]
+      early skip of rewriting module: win32com [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging [assertion]
+      early skip of rewriting module: pkg_resources._vendor.packaging [assertion]
+      early skip of rewriting module: pkg_resources._vendor.packaging.__about__ [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.version [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging._structures [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.specifiers [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging._compat [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.requirements [assertion]
+      early skip of rewriting module: pkg_resources.extern.pyparsing [assertion]
+      early skip of rewriting module: pkg_resources._vendor.pyparsing [assertion]
+      early skip of rewriting module: pkg_resources.extern.six.moves.urllib [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.markers [assertion]
+      early skip of rewriting module: sysconfig [assertion]
+      early skip of rewriting module: wcwidth.table_wide [assertion]
+      early skip of rewriting module: wcwidth.table_zero [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_app.py::test_adds_funds_to_existing_account' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000226121DF220>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x00000226121DF220>
+    finish pytest_unconfigure --> [] [hook]

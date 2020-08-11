@@ -46,8 +46,10 @@ class MoneyResource(Resource):
         parser.add_argument('name', type=str, help='Account name')
         parser.add_argument('amount', type=int, help='Transfer amount (pence)')
         args = parser.parse_args()
-        return bank.add_funds(**args)
-
+        try:
+            return bank.add_funds(**args)
+        except ValueError:
+            abort(500, 'Account not found')
 
 if __name__ == '__main__':
     app.run(debug=True)
